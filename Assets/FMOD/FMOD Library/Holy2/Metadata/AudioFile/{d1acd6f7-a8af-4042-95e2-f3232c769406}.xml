@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d1acd6f7-a8af-4042-95e2-f3232c769406}">
+		<property name="assetPath">
+			<value>Bow drawing.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.4770208333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f2814d6-204f-4699-b256-a81a6806b246}</destination>
+		</relationship>
+	</object>
+</objects>

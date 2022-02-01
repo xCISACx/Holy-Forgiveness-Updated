@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f3cb7b28-f1a7-45ee-ba5f-627080be15fc}">
+		<property name="assetPath">
+			<value>Button Miss Combination.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8274829931972789</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f2814d6-204f-4699-b256-a81a6806b246}</destination>
+		</relationship>
+	</object>
+</objects>

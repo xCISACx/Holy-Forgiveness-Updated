@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a2d8cc03-391c-4880-ac7e-14a14b76e144}">
+		<property name="assetPath">
+			<value>Stone Dragging Sound 6.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.8426077097505669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f2814d6-204f-4699-b256-a81a6806b246}</destination>
+		</relationship>
+	</object>
+</objects>

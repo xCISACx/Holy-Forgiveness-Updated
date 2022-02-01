@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b1f7f779-f7fe-43d9-8b06-3949a6ba88fb}">
+		<property name="assetPath">
+			<value>424169__rooms-boxes__stone-sliding.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>69.055011337868478</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7f2814d6-204f-4699-b256-a81a6806b246}</destination>
+		</relationship>
+	</object>
+</objects>
