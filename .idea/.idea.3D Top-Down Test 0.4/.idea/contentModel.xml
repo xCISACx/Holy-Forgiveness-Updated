@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Phoenix\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Phoenix\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Phoenix\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_3D Top-Down Test 0.4.1206200447.00" t="ExcludeRecursive" />
+    <e p="D:\Unity Projects\3D Top-Down Test 0.4" t="IncludeRecursive">
+      <e p="3D Top-Down Test 0.4.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="_MK" t="Include">
+          <e p="MKToonFree" t="Include">
+            <e p="Editor" t="Include">
+              <e p="MKToonFreeEditor.cs" t="Include" />
+            </e>
+            <e p="Shader" t="Include">
+              <e p="Inc" t="Include">
+                <e p="Common" t="Include">
+                  <e p="MKToonDef.cginc" t="Include" />
+                  <e p="MKToonInc.cginc" t="Include" />
+                  <e p="MKToonLight.cginc" t="Include" />
+                  <e p="MKToonV.cginc" t="Include" />
+                </e>
+                <e p="Forward" t="Include">
+                  <e p="MKToonForward.cginc" t="Include" />
+                  <e p="MKToonForwardAddSetup.cginc" t="Include" />
+                  <e p="MKToonForwardBaseSetup.cginc" t="Include" />
+                  <e p="MKToonForwardIO.cginc" t="Include" />
+                </e>
+                <e p="Outline" t="Include">
+                  <e p="MKToonOutlineOnlyBase.cginc" t="Include" />
+                  <e p="MKToonOutlineOnlyIO.cginc" t="Include" />
+                  <e p="MKToonOutlineOnlySetup.cginc" t="Include" />
+                </e>
+                <e p="ShadowCaster" t="Include">
+                  <e p="MKToonShadowCaster.cginc" t="Include" />
+                  <e p="MKToonShadowCasterIO.cginc" t="Include" />
+                  <e p="MKToonShadowCasterSetup.cginc" t="Include" />
+                </e>
+                <e p="Surface" t="Include">
+                  <e p="MKToonSurface.cginc" t="Include" />
+                  <e p="MKToonSurfaceIO.cginc" t="Include" />
+                </e>
+              </e>
+              <e p="MKToonFree.shader" t="Include" />
+              <e p="MKToonFreeMobile.shader" t="Include" />
+              <e p="MKToonFreeOutlineOnly.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="AIMove.cs" t="Include" />
+        <e p="BridgeBehaviour.cs" t="Include" />
+        <e p="CameraFollow.cs" t="Include" />
+        <e p="CharacterManager.cs" t="Include" />
+        <e p="CharacterManagerV2.cs" t="Include" />
+        <e p="CubeBehaviour.cs" t="Include" />
+        <e p="CustomGravity.cs" t="Include" />
+        <e p="DoorBehaviour.cs" t="Include" />
+        <e p="EnemyBehaviour.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="GemBehaviour.cs" t="Include" />
+        <e p="HazardBehaviour.cs" t="Include" />
+        <e p="IronPlatformBehaviour.cs" t="Include" />
+        <e p="KariPlayerBehaviour.cs" t="Include" />
+        <e p="KeyBehaviour.cs" t="Include" />
+        <e p="KuroPlayerBehaviour.cs" t="Include" />
+        <e p="LerpTransform.cs" t="Include" />
+        <e p="LeverBehaviour.cs" t="Include" />
+        <e p="MinimapCameraFollow.cs" t="Include" />
+        <e p="PillarBehaviour.cs" t="Include" />
+        <e p="PillarClimbBehaviour.cs" t="Include" />
+        <e p="PitBehaviour.cs" t="Include" />
+        <e p="PlayerMovementTopDown.cs" t="Include" />
+        <e p="PlayerShadowBehaviour.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="AdjustPivot" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AdjustPivot.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PMDMaterial" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="MeshPmdMaterial-Trans.shader" t="Include" />
+            <e p="MeshPmdMaterial.shader" t="Include" />
+            <e p="MeshPmdMaterialOutline-Trans.shader" t="Include" />
+            <e p="MeshPmdMaterialOutline.shader" t="Include" />
+            <e p="MeshPmdMaterialSurface.cginc" t="Include" />
+            <e p="MeshPmdMaterialVertFrag.cginc" t="Include" />
+          </e>
+        </e>
+        <e p="RockBehaviour.cs" t="Include" />
+        <e p="Shaders" t="Include">
+          <e p="Cubed's Unity Shaders (Silent)" t="Include">
+            <e p="Editor" t="Include">
+              <e p="FlatLitToonSInspector.cs" t="Include" />
+            </e>
+            <e p="Info.txt" t="Include" />
+            <e p="LightRamps" t="Include">
+              <e p="Info.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Flat Lit Toon (Cutout).shader" t="Include" />
+              <e p="Flat Lit Toon (Transparent).shader" t="Include" />
+              <e p="Flat Lit Toon.shader" t="Include" />
+              <e p="FlatLitToonCore.cginc" t="Include" />
+              <e p="FlatLitToonForward.cginc" t="Include" />
+              <e p="FlatLitToonShadows.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="NewUnlitShader.shader" t="Include" />
+          <e p="ToonLithe.shader" t="Include" />
+        </e>
+        <e p="SmallPillarBehaviour.cs" t="Include" />
+        <e p="StairsBehaviour.cs" t="Include" />
+        <e p="SwordBehaviour.cs" t="Include" />
+        <e p="TextMesh Pro" t="Include">
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TopPillarBehaviour.cs" t="Include" />
+        <e p="WallsBehaviour.cs" t="Include" />
+        <e p="YuutaPlayerBehaviour.cs" t="Include" />
+        <e p="ZoomBehaviour.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

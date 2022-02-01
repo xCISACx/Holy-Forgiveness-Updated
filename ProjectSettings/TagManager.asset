@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sword
+  - Kuro
+  - Yuuta
+  - Kari
+  - Enemy
+  - Ground
+  - Stairs
+  - Box
+  - Pillar
+  - Platform
+  - Projectile
+  - Fallen Pillar
+  - Lava
+  - Handle
+  - Door
+  - Kuro Shadow
+  - Yuuta Shadow
+  - Kari Shadow
+  - Kuro Ground Check
+  - Yuuta Ground Check
+  - Kari Ground Check
+  - Key
+  - DirectionIndicator
+  - Wall
+  - Stopper
+  - Bridge
+  - InfoText
+  - KuroHand
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Ground
+  - Kuro
+  - Yuuta
+  - Kari
+  - Enemy
+  - Environment
+  - Projectile
+  - Box
+  - Walls
+  - Pillar
+  - TopPillar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
