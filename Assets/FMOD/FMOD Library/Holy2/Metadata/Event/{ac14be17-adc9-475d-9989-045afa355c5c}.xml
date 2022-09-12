@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ac14be17-adc9-475d-9989-045afa355c5c}">
 		<property name="name">
 			<value>Big Pillar Fall</value>

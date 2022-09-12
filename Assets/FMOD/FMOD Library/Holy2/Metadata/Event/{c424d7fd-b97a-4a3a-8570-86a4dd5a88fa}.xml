@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c424d7fd-b97a-4a3a-8570-86a4dd5a88fa}">
 		<property name="name">
 			<value>Yuuta Box Pushing</value>

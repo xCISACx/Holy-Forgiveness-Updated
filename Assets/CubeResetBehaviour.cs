@@ -66,8 +66,6 @@ public class CubeResetBehaviour : MonoBehaviour
                 
                 foreach (var t in Behaviours)
                 {
-                    t.pushLeft = false;
-                    t.pushRight = false;
                     t.pushed = false;
                 }
 

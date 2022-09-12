@@ -12,6 +12,7 @@ public class ObstructionChecker : MonoBehaviour
     public List<ObstructionBehaviour> HitObstructions2;
     public List<ObstructionBehaviour> NotHitObstructions2;
     public List<ObstructionBehaviour> AllObstructions;
+    public Material DefaultMaterial;
     
     // Start is called before the first frame update
     void Start()
@@ -20,7 +21,7 @@ public class ObstructionChecker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         CheckForObstructions();
 
@@ -53,11 +54,12 @@ public class ObstructionChecker : MonoBehaviour
     private void CheckForObstructions()
     {
         var dir = (CameraFollow.instance.target.transform.position - transform.position).normalized;
-        var hits = Physics.RaycastAll(transform.position, dir, Mathf.Infinity, LayerMask);
+        var hits = Physics.RaycastAll(transform.position, dir, Vector3.Distance(transform.position, CameraFollow.instance.target.transform.position), LayerMask);
         Debug.DrawRay(transform.position, dir, Color.red);
 
-        for (var index = 0; index <= hits.Length; index++)
+        for (var index = 0; index < hits.Length; index++)
         {
+            Debug.Log(index);
             var hit = hits[index];
             Renderer rend = hit.transform.GetComponent<Renderer>();
 
@@ -76,7 +78,7 @@ public class ObstructionChecker : MonoBehaviour
                     }
                 }
 
-                if (hits[index + 1].transform.gameObject != hits[index].transform.gameObject)
+                if (hits[index + 1 % hits.Length].transform.gameObject != hits[index].transform.gameObject)
                 {
                     if (GetComponent<ObstructionBehaviour>())
                     {
@@ -98,6 +100,6 @@ public class ObstructionChecker : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, 2);
         Gizmos.color = Color.blue;
-        Gizmos.DrawLine(transform.position, CameraFollow.instance.target.transform.position);
+        if (CameraFollow.instance) Gizmos.DrawLine(transform.position, CameraFollow.instance.target.transform.position);
     }
 }

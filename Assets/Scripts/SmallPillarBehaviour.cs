@@ -25,10 +25,10 @@ public class SmallPillarBehaviour : MonoBehaviour
 	[SerializeField] private BoxCollider pillarPushPointRightCollider;*/
 	
 	public PushType pushType;
-	public bool pushFront;
-	public bool pushBack;
-	public bool pushLeft;
-	public bool pushRight;
+	//public bool pushFront;
+	//public bool pushBack;
+	//public bool pushLeft;
+	//public bool pushRight;
 	public bool pushed;
 	public Animator smallPillarAnim;
 	public YuutaPlayerBehaviour Yuuta;
@@ -55,15 +55,15 @@ public class SmallPillarBehaviour : MonoBehaviour
 			Yuuta = FindObjectOfType<YuutaPlayerBehaviour>();
 		}
 		
-		if (pushFront || pushBack || pushLeft || pushRight)
+		/*if (pushFront || pushBack || pushLeft || pushRight)
 		{
 			pushed = true;
-		}
+		}*/
 		
-		smallPillarAnim.SetBool("fall front", pushBack);
+		/*smallPillarAnim.SetBool("fall front", pushBack);
 		smallPillarAnim.SetBool("fall back", pushFront);
 		smallPillarAnim.SetBool("fall right", pushLeft);
-		smallPillarAnim.SetBool("fall left", pushRight);
+		smallPillarAnim.SetBool("fall left", pushRight);*/
 	}
 
 	private void OnTriggerStay(Collider other)
@@ -73,47 +73,51 @@ public class SmallPillarBehaviour : MonoBehaviour
 			switch (pushType)
 			{
 				case PushType.Front:
-					if (Input.GetButtonDown("R1") && !pushed)
+					if (Input.GetButtonDown("R1") || Input.GetMouseButtonUp(0) && !pushed)
 					{
 						Yuuta.GetComponent<Animator>().SetBool("pushed", true);
 						StartCoroutine(WaitBeforeChangingAnimation());
-						pushFront = true;
-						//Debug.Log("Pushed front point, falling back");
+						pushed = true;
+						smallPillarAnim.SetBool("fall back", true);
+						Debug.Log("Pushed front point, falling back");
 					}
 					break;
 
 				case PushType.Back:
 				{
-					if (Input.GetButtonDown("R1") && !pushed)
+					if (Input.GetButtonDown("R1") || Input.GetMouseButtonUp(0) && !pushed)
 					{
 						Yuuta.GetComponent<Animator>().SetBool("pushed", true);
 						StartCoroutine(WaitBeforeChangingAnimation());
-						pushBack = true;
-						//Debug.Log("Pushed back point, falling front");
+						pushed = true;
+						Debug.Log("Pushed back point, falling front");
+						smallPillarAnim.SetBool("fall front", true);
 					}
 					break;
 				}
 
 				case PushType.Left:
 				{
-					if (Input.GetButtonDown("R1") && !pushed) 
+					if (Input.GetButtonDown("R1") || Input.GetMouseButtonUp(0) && !pushed) 
 					{
 						Yuuta.GetComponent<Animator>().SetBool("pushed", true);
 						StartCoroutine(WaitBeforeChangingAnimation());
-						pushLeft = true;
-						//Debug.Log("Pushed left point, falling right");
+						pushed = true;
+						Debug.Log("Pushed left point, falling right");
+						smallPillarAnim.SetBool("fall right", true);
 					}
 					break;
 				}
 
 				case PushType.Right:
 				{
-					if (Input.GetButtonDown("R1") && !pushed)
+					if (Input.GetButtonDown("R1") || Input.GetMouseButtonUp(0) && !pushed)
 					{
 						Yuuta.GetComponent<Animator>().SetBool("pushed", true);
 						StartCoroutine(WaitBeforeChangingAnimation());
-						pushRight = true;
-						//Debug.Log("Pushed right point, falling left");
+						pushed = true;
+						smallPillarAnim.SetBool("fall left", true);
+						Debug.Log("Pushed right point, falling left");
 					}
 					break;
 				}
@@ -122,7 +126,7 @@ public class SmallPillarBehaviour : MonoBehaviour
 	
 	}
 	
-	private void PlayAnimation()
+	/*private void PlayAnimation()
 	{
 		if (pushFront || pushBack || pushLeft || pushRight)
 		{
@@ -143,7 +147,7 @@ public class SmallPillarBehaviour : MonoBehaviour
 		{
 			smallPillarAnim.SetBool("fall left", true);
 		}
-	}
+	}*/
 	
 	IEnumerator WaitBeforeChangingAnimation()
 	{

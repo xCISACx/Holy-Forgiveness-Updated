@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ee76a722-b65f-4ff9-866b-d00cfba9b1bd}">
 		<property name="name">
 			<value>Lava Bubbling</value>

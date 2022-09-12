@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{9b7e9ced-91c6-459a-8097-e2e548c1fa6b}">
 		<property name="name">
 			<value>Door Opening 2</value>
@@ -77,8 +77,8 @@
 	</object>
 	<object class="Timeline" id="{a3044305-ef7b-4221-b389-7802e2a605ff}">
 		<relationship name="modules">
-			<destination>{59fa3fd9-9900-4f07-91bf-c283db3e68db}</destination>
 			<destination>{163973eb-c624-420e-a458-54dbe9a38a88}</destination>
+			<destination>{59fa3fd9-9900-4f07-91bf-c283db3e68db}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f200a48d-e369-4353-bc2d-41284accd6f6}">

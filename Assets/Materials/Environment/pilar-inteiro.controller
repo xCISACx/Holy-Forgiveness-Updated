@@ -179,7 +179,7 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 --- !u!1102 &1102042441739964308
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -205,8 +205,8 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102487850906431858
 AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 3
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -231,7 +231,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102644619720860918
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -261,8 +261,8 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102794772057963128
 AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 3
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -288,8 +288,8 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102919758865982846
 AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 3
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -315,7 +315,7 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &1107221652092915242
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -333,7 +333,7 @@ AnimatorStateMachine:
     m_Position: {x: 700, y: -10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102487850906431858}
-    m_Position: {x: 460, y: -70, z: 0}
+    m_Position: {x: 440, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102919758865982846}
     m_Position: {x: 432, y: 276, z: 0}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.00.00">
+<objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{82077385-24e4-4d1c-81f7-c02333b91f33}">
 		<property name="name">
 			<value>Gem Sound 3</value>
